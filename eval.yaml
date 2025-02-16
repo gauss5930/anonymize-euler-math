@@ -1,0 +1,22 @@
+models:
+  - jwhj/Qwen2.5-Math-1.5B-OREO
+  - nvidia/AceMath-1.5B-Instruct
+  - deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B # 12
+  - Qwen/Qwen2.5-Math-1.5B-Instruct
+  - PRIME-RL/Eurus-2-7B-PRIME
+  - deepseek-ai/DeepSeek-R1-Distill-Qwen-7B # 28
+  - nvidia/AceMath-7B-Instruct
+  - Qwen/Qwen2.5-Math-7B-Instruct
+  - deepseek-ai/DeepSeek-R1-Distill-Qwen-32B # 40
+  - o3-mini
+datasets:
+  - OLAIR/mt-math-500
+  - OLAIR/mt-math-extended
+  - OLAIR/mt-aime-extended
+  - OLAIR/M-IMO-extended
+  - OLAIR/MMO
+language_type:
+samples: False
+output_path: results
+hf_token: hf_xxx # HF token
+openai_token: sk_xxx # OpenAI API token
