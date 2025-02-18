@@ -8,7 +8,7 @@ from vllm import LLM, SamplingParams
 import huggingface_hub
 import torch
 
-huggingface_hub.login("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")
+huggingface_hub.login("hf_xxx")
 
 def main(model_path, language, output_path, dataset):
     sampling_params = SamplingParams(temperature=0.0, max_tokens=4096)
